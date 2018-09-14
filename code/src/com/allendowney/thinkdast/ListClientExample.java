@@ -9,11 +9,13 @@ public class ListClientExample {
 
 	@SuppressWarnings("rawtypes")
 	public ListClientExample() {
+	    // init list as new LinkedList 
 		list = new LinkedList();
 	}
 
 	@SuppressWarnings("rawtypes")
 	public List getList() {
+	    // getter method refers to inner list object.
 		return list;
 	}
 
