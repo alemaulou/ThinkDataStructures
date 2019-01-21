@@ -1,20 +1,20 @@
 package com.allendowney.thinkdast;
 
-import java.util.LinkedList;
+import java.util.ArrayList;
 import java.util.List;
 
 public class ListClientExample {
 	@SuppressWarnings("rawtypes")
-	private List list;
+	private List<Integer> list;
 
 	@SuppressWarnings("rawtypes")
 	public ListClientExample() {
 	    // init list as new LinkedList 
-		list = new LinkedList();
+		list = new ArrayList<Integer>();
 	}
 
 	@SuppressWarnings("rawtypes")
-	public List getList() {
+	public List<Integer> getList() {
 	    // getter method refers to inner list object.
 		return list;
 	}
@@ -22,7 +22,7 @@ public class ListClientExample {
 	public static void main(String[] args) {
 		ListClientExample lce = new ListClientExample();
 		@SuppressWarnings("rawtypes")
-		List list = lce.getList();
+		List<Integer> list = lce.getList();
 		System.out.println(list);
 	}
 }
