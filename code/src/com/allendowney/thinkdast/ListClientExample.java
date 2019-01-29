@@ -13,6 +13,7 @@ public class ListClientExample {
 		list = new ArrayList<Integer>();
 	}
 
+
 	@SuppressWarnings("rawtypes")
 	public List<Integer> getList() {
 	    // getter method refers to inner list object.

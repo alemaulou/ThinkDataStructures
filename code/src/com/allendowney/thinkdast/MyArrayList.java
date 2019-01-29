@@ -168,7 +168,7 @@ public class MyArrayList<T> implements List<T> {
 		// make a list and return an iterator
 		return Arrays.asList(copy).listIterator(index);
 	}
-
+//test 
 	@Override
 	public boolean remove(Object obj) {
 		int index = indexOf(obj);
